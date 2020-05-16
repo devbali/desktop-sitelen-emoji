@@ -15,7 +15,7 @@ Scripts to enable desktop users to type in Sitelen Emoji, using simple autocorre
 ## Linux
 - Check if Inteligent Input Bus (IBus) is installed and enabled on your machine (enter `ibus version` in the command line)
 - If not, install by `sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4 ibus-table`
-- Download this repository as a zip (and extract). Then run the command `sudo ibus-table-createdb -n /usr/share/ibus-table/tables/sitelenemoji.db -s linuxibus.txt` from the directory you extraced to
+- Download this repository as a zip (and extract). Then run the command `sudo ibus-table-createdb -n /usr/share/ibus-table/tables/sitelenemoji.db -s linuxibus.txt` from the directory you extracted to
 - Now that the the extension has been installed, run `ibus-daemon -drx` or restart your machine
 - This enables you to run `ibus-setup` to complete the setup. There should be an option for a "Sitelen Emoji" keyboard under "English (US)." Select and install the keyboard
 - To use Sitelen Emoji, switch to that keyboard and type, and switch back to your regular keyboard when needed
