@@ -2,6 +2,10 @@
 Scripts to enable desktop users to type in Sitelen Emoji, using simple autocorrect style extensions
 
 ## Windows
+- Install AutoHotkey if not already installed [here](https://www.autohotkey.com/)
+- Download the script <a href="https://raw.githubusercontent.com/devbali/desktop-sitelen-emoji/master/windowssitelenemoji.ahk" download>windowssitelenemoji.ahk</a> from this repository
+- Next, press `Windows+R` and enter `shell:startup` (`shell:common startup` for the extension to be available to all users). This will take you to a folder, where you can copy the script
+- Now you can restart, and Sitelen Emoji is ready to use. It is off by default, but you can press `F1` or `Fn+F1` to turn it on or off again
 
 ## MacOS
 - Download the macossitelenemoji.inputplugin file
