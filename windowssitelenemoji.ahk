@@ -1,5 +1,8 @@
 #NoEnv ; For security
 #SingleInstance force
+Hotkey :, colon
+Hotkey ., period
+Hotkey _, underscore
 
 toggle := false
 return
@@ -9,6 +12,19 @@ F1::
 	return
 
 #If toggle
+
+underscore:
+	send {U+1f523}
+	return
+
+period:
+	send {U+2796}{U+fe0f}
+	return
+
+colon:
+	send {U+2797}{U+fe0f}
+	return
+
 :OC:a::{U+2757}{U+fe0f}
 :OC:akesi::{U+1f98e}
 :OC:ala::{U+274c}
@@ -141,9 +157,7 @@ F1::
 :OC:wawa::{U+26a1}{U+fe0f}
 :OC:weka::{U+1f6eb}
 :OC:wile::{U+1f4ad}
-:OC:_::{U+1f523}
-:OC:.::{U+2796}{U+fe0f}
-:OC:\:::{U+2797}{U+fe0f}
+
 :OC:Akanisan::{U+1f1e6}{U+1f1eb}
 :OC:Olan::{U+1f1e6}{U+1f1fd}
 :OC:Sipe::{U+1f1e6}{U+1f1f1}
