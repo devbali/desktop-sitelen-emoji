@@ -147,6 +147,7 @@ colon:
 :OC:tenpo::{U+23f0}{U+fe0f}
 :OC:toki::{U+1f5e3}
 :OC:tomo::{U+1f3e0}
+:OC:tonsi::{U+2650}
 :OC:tu::{U+270c}{U+fe0f}
 :OC:unpa::{U+1f346}
 :OC:uta::{U+1f444}
