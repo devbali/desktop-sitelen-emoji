@@ -1,0 +1,545 @@
+# (c) Apple Inc. 2019
+
+# Sample plug-in input source rule file.
+
+# The # character is used to indicate comments.
+
+# The file format must be plain text. The file encoding must be Unicode (UTF-16) with or without an initial BOM (Byte Order Mark).
+
+# The file consists of a number of tags, in uppercase ending with a colon, followed by the content of the tag.
+
+#
+
+# METHOD: This is the first entry in the file, defining the method used to implement the plug-in.
+
+# The only method currently supported is “TABLE”.
+
+#
+
+METHOD: TABLE
+
+#
+
+# ENCODE: This indicates whether the target is Traditional Chinese (“TC”), Simplified Chinese (“SC”), or Unicode (“Unicode”). All plug-in input sources appear as Unicode input sources in the Input Sources pane of Keyboard preferences.
+
+#
+
+ENCODE: TC
+
+#
+
+# PROMPT: This is the name of the plug-in, shown in the Input Sources pane of Keyboard preferences and the Input menu.
+
+#
+
+PROMPT: Sitelen Emoji
+
+#
+
+# DELIMITER: This defines the delimiter for characters or phrases with the same input code.
+
+# In this case, we are using the comma character.
+
+#
+
+DELIMITER: ,
+
+#
+
+# VERSION: This is used to indicate the version number of your plug-in.
+
+#
+
+VERSION: 1.0
+
+#
+
+# MAXINPUTCODE: The limit of the number of characters that can be input for a single conversion.
+
+# There is no limit unless you specify one.
+
+#
+
+MAXINPUTCODE: 8
+
+#
+
+# VALIDINPUTKEY: The set of characters that can be used for input strings. These are case-insensitive but must be entered as one complete set.
+
+#
+
+VALIDINPUTKEY: 0123456789-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+#
+
+# BEGINCHARACTER: This tag begins the definitions for the mappings and is required.
+
+# The format for each mapping is:
+
+# ...
+
+# Blank lines and characters are ignored.
+
+# The delimiter between output strings is that defined above by the DELIMITER tag.
+
+# Indicate that the mapping definitions have ended with the ENDCHARACTER tag.
+
+#
+
+BEGINCHARACTER
+
+a ❗
+akesi 🦎
+ala ❌
+alasa 🏹
+ale ♾️
+ali ♾️
+anpa ⬇️
+ante 🔀
+anu ☯️
+apeja 😢
+awen ⚓
+e ⏩
+en ➕
+esun 🛒
+ijo 🐚
+ike 👎
+ilo ⚙️
+insa ⏺️
+jaki 💩
+jan 👤
+jelo 💛
+jo 👜
+kala 🐟
+kalama 🔈
+kama 🚶
+kasi 🌴
+ken 💪
+kepeken 🔧
+kijetesantakalu 🦝
+kili 🍎
+kin ❕
+kipisi ✂️
+kiwen 💎
+ko 🍦
+kon 💨
+kule 🌈
+kulupu 👥
+kute 👂
+la 🔼
+lape 😴
+laso 🔵
+lawa 😶
+leko 🧱
+len 👕
+lete ❄️
+li ▶️
+lili 🐭
+linja 〰️
+linluwi 🌐
+lipu 📄
+loje 🔴
+lon 📍
+luka ✋
+lukin 👀
+lupa 🕳
+ma 🏝
+majuna 👵
+mama 👪
+mani 💰
+meli 👧
+mi 👈
+mije 👨
+moku 🍽
+moli 💀
+monsi ⬅️
+monsuta 👹
+mu 😹
+mulapisu 🍕
+mun 🌙
+musi 😃
+mute 👐
+namako 🧂
+nanpa #️⃣
+nasa 🌀
+nasin 🛣
+nena 🗻
+ni 👇
+nimi 💬
+noka 🦵
+o 👋
+oko 👁️
+olin 💕
+ona 👆
+open 🔓
+pakala 💥
+pake 🚧
+pali ✊
+palisa 📏
+pan 🍞
+pana 📤
+pi ⏹️
+pilin ❤️
+pimeja ⚫
+pini 🏁
+pipi 🐞
+poka ↔️
+poki 📦
+pona 👍
+powe 🧞
+pu 📖
+sama ⚖️
+seli 🔥
+selo 🔲
+seme ❓
+sewi ⬆️
+sijelo 🏋️
+sike ⭕
+sin 🎁
+sina 👉
+sinpin ➡️
+sitelen 🖼
+sona 🧠
+soweli 🐒
+suli 🐘
+suno ☀️
+supa 🛏
+suwi 🍭
+tan ↩️
+taso 🤔
+tawa ↪️
+telo 💧
+tenpo ⏰
+toki 🗣
+tomo 🏠
+tonsi ♐
+tu ✌️
+unpa 🍆
+uta 👄
+utala ⚔️
+walo ⚪
+wan ☝️
+waso 🦅
+wawa ⚡
+weka 🛫
+wile 💭
+_ 🔣
+. ➖
+: ➗
+epiku 😎
+ete 🔃
+ewe 🌋
+itomi 😈
+jami 🤤
+kamalawala 💣
+kan 🔗
+kapesi 🟤
+kuntu 🤣
+lanpan 📥
+likujo 🧺
+lokon 🧿
+melome 👩‍❤️‍👩
+mijomi 👨‍❤️‍👨
+misikeke 💊
+oke 👌
+okepuma 🦖
+omen 🙄
+pa 🤨
+pasila 🧘
+pata 👯‍♀️
+peta 🟢
+peto 😭
+pipo 😒
+po 🍀
+polinpin 🎳
+pomotolo 📈
+samu ✍️
+sikomo 🤩
+soko 🍄
+soto 🤛
+su ❔
+te 🤜
+tuli ☘️
+waleja ℹ️
+wawajete 🤡
+we 🔒
+wi 🙋
+yupekosi 📉
+Akanisan 🇦🇫
+Olan 🇦🇽
+Sipe 🇦🇱
+Sasali 🇩🇿
+Amewikansamowa 🇦🇸
+Antola 🇦🇩
+Ankola 🇦🇴
+Anwila 🇦🇮
+Antasika 🇦🇶
+Ansika 🇦🇬
+Alensina 🇦🇷
+Aja 🇦🇲
+Alupa 🇦🇼
+Asenson 🇦🇨
+Oselija 🇦🇺
+Esalasi 🇦🇹
+Asepasan 🇦🇿
+Pawama 🇧🇸
+Palani 🇧🇭
+Panla 🇧🇩
+Papeto 🇧🇧
+Pelalusi 🇧🇾
+Pesije 🇧🇪
+Pelis 🇧🇿
+Penen 🇧🇯
+Pemuta 🇧🇲
+Tukika 🇧🇹
+Polipa 🇧🇴
+Posan 🇧🇦
+Posuwana 🇧🇼
+Pupetoja 🇧🇻
+Pasila 🇧🇷
+Pijot 🇮🇴
+Pisinalan 🇻🇬
+Pune 🇧🇳
+Pokasi 🇧🇬
+Pukinapaso 🇧🇫
+Upulunsi 🇧🇮
+Kanpusi 🇰🇭
+Kamelun 🇨🇲
+Kanata 🇨🇦
+Kanalija 🇮🇨
+Kapupesi 🇨🇻
+Kalibinetelan 🇧🇶
+Kesimen 🇰🇾
+Santapiken 🇨🇫
+Sejuta 🇪🇦
+Sate 🇹🇩
+Sile 🇨🇱
+Sonko 🇨🇳
+Kilima 🇨🇽
+Kipeton 🇨🇵
+Koko 🇨🇨
+Kolonpa 🇨🇴
+Komo 🇰🇲
+Jakonko 🇨🇬
+Konko 🇨🇩
+Kukialani 🇨🇰
+Kosalika 🇨🇷
+Kosiwa 🇨🇮
+Lowasi 🇭🇷
+Kupa 🇨🇺
+Kulusu 🇨🇼
+Kiposi 🇨🇾
+Seki 🇨🇿
+Tansi 🇩🇰
+Tekokasija 🇩🇬
+Sipusi 🇩🇯
+Tomini 🇩🇲
+Tominika 🇩🇴
+Ekato 🇪🇨
+Masu 🇪🇬
+Sapato 🇸🇻
+Kinejekatolija 🇬🇶
+Eliteja 🇪🇷
+Esi 🇪🇪
+Sawasi 🇸🇿
+Isijopija 🇪🇹
+Elopa 🇪🇺
+Pokan 🇫🇰
+Foja 🇫🇴
+Pisi 🇫🇯
+Sumi 🇫🇮
+Kanse 🇫🇷
+Kijan 🇬🇫
+Polinesi 🇵🇫
+Telota 🇹🇫
+Kapon 🇬🇦
+Kanpija 🇬🇲
+Katelo 🇬🇪
+Tosi 🇩🇪
+Kana 🇬🇭
+Sipata 🇬🇮
+Elena 🇬🇷
+Kalalinuna 🇬🇱
+Kenata 🇬🇩
+Watalu 🇬🇵
+Wan 🇬🇺
+Katemala 🇬🇹
+Kensi 🇬🇬
+Kine 🇬🇳
+Kinepisa 🇬🇼
+Kajan 🇬🇾
+Awisi 🇭🇹
+Imi 🇭🇲
+Ontula 🇭🇳
+Onkon 🇭🇰
+Mosijo 🇭🇺
+Isilan 🇮🇸
+Palata 🇮🇳
+Intonesija 🇮🇩
+Ilan 🇮🇷
+Ilakija 🇮🇶
+Alan 🇮🇪
+Manin 🇮🇲
+Isale 🇮🇱
+Italija 🇮🇹
+Sameka 🇯🇲
+Nijon 🇯🇵
+Jesi 🇯🇪
+Utun 🇯🇴
+Kasatan 🇰🇿
+Kenja 🇰🇪
+Kilipasi 🇰🇮
+Kosopa 🇽🇰
+Kuwasi 🇰🇼
+Kikitan 🇰🇬
+Laju 🇱🇦
+Lawi 🇱🇻
+Lunpan 🇱🇧
+Lesoto 🇱🇸
+Lapewija 🇱🇷
+Lipija 🇱🇾
+Lisensan 🇱🇮
+Lijatuwa 🇱🇹
+Lusepu 🇱🇺
+Omun 🇲🇴
+Maketonija 🇲🇰
+Malakasi 🇲🇬
+Malawi 🇲🇼
+Malasija 🇲🇾
+Sipeji 🇲🇻
+Mali 🇲🇱
+Mata 🇲🇹
+Maje 🇲🇭
+Masini 🇲🇶
+Mulitanija 🇲🇷
+Mowisi 🇲🇺
+Majo 🇾🇹
+Mesiko 🇲🇽
+Makonise 🇫🇲
+Motowa 🇲🇩
+Monako 🇲🇨
+Monkolu 🇲🇳
+Sinakola 🇲🇪
+Monsale 🇲🇸
+Malipe 🇲🇦
+Mosanpi 🇲🇿
+Mijama 🇲🇲
+Namipija 🇳🇦
+Nawelo 🇳🇷
+Nepa 🇳🇵
+Netelan 🇳🇱
+Nupekaletoni 🇳🇨
+Nusilan 🇳🇿
+Nikalawa 🇳🇮
+Nise 🇳🇪
+Naselija 🇳🇬
+Niwe 🇳🇺
+Nopo 🇳🇫
+Pukoson 🇰🇵
+Majana 🇲🇵
+Nosiki 🇳🇴
+Uman 🇴🇲
+Pakisan 🇵🇰
+Pela 🇵🇼
+Pilisin 🇵🇸
+Panama 🇵🇦
+Papuwanijukini 🇵🇬
+Palakawi 🇵🇾
+Pelu 🇵🇪
+Pilipina 🇵🇭
+Piken 🇵🇳
+Posuka 🇵🇱
+Potuke 🇵🇹
+Puwetoliko 🇵🇷
+Kita 🇶🇦
+Lajenon 🇷🇪
+Lomani 🇷🇴
+Losi 🇷🇺
+Luwanta 🇷🇼
+Samowa 🇼🇸
+Samalino 🇸🇲
+Santume 🇸🇹
+Sawusi 🇸🇦
+Seneka 🇸🇳
+Sopisi 🇷🇸
+Sese 🇸🇨
+Sijelalijon 🇸🇱
+Sinkapo 🇸🇬
+Sinmaten 🇸🇽
+Lowenki 🇸🇰
+Lowensina 🇸🇮
+Solomon 🇸🇧
+Somalija 🇸🇴
+Setapika 🇿🇦
+Sajoja 🇬🇸
+Anku 🇰🇷
+Sasutan 🇸🇸
+Epanja 🇪🇸
+Lanka 🇱🇰
+Sepatelemi 🇧🇱
+Sateline 🇸🇭
+Sankinipi 🇰🇳
+Senlusi 🇱🇨
+Sematan 🇲🇫
+Sepemiko 🇵🇲
+Kenedin 🇻🇨
+Sutan 🇸🇩
+Siliname 🇸🇷
+Sepapa 🇸🇯
+Wensa 🇸🇪
+Suwasi 🇨🇭
+Sulija 🇸🇾
+Tawan 🇹🇼
+Tojikiton 🇹🇯
+Tansanija 🇹🇿
+Tawi 🇹🇭
+Simololosa 🇹🇱
+Toko 🇹🇬
+Tokela 🇹🇰
+Tona 🇹🇴
+Sinita 🇹🇹
+Siten 🇹🇦
+Tunisi 🇹🇳
+Tuki 🇹🇷
+Temenitan 🇹🇲
+Tekeko 🇹🇨
+Tuwalu 🇹🇻
+Mewikalan 🇺🇲
+Pijenalan 🇻🇮
+Ukanta 🇺🇬
+Ukawina 🇺🇦
+Alimala 🇦🇪
+Juke 🇬🇧
+Mewika 🇺🇸
+Ulukawi 🇺🇾
+Opekiton 🇺🇿
+Wanuwatu 🇻🇺
+Wasikano 🇻🇦
+Penesuwela 🇻🇪
+Wije 🇻🇳
+Upemoputuna 🇼🇫
+Asala 🇪🇭
+Jamanija 🇾🇪
+Sanpija 🇿🇲
+Sinpapuwe 🇿🇼
+Inli 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+Sukosi 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+Kinla 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+Katala 🏴󠁥󠁳󠁣󠁴󠁿
+Esuka 🏴󠁥󠁳󠁰󠁶󠁿
+Peson 🏴󠁦󠁲󠁢󠁲󠁥󠁿
+Kusala 🏴󠁩󠁮󠁧󠁪󠁿
+Kuli 🏴󠁩󠁲󠀱󠀶󠁿
+Po 🏴󠁣󠁮󠀵󠀴󠁿
+Amelika 🌎
+Apika 🌍
+Asija 🌏
+Osejanija 🌊
+
+#
+
+# ENDCHARACTER: This terminates the mapping definitions and is the last character in the file.
+
+#
+
+ENDCHARACTER

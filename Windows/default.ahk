@@ -18,14 +18,14 @@ underscore:
 	return
 
 period:
-	send {U+2796}{U+fe0f}
+	send {U+2796}
 	return
 
 colon:
-	send {U+2797}{U+fe0f}
+	send {U+2797}
 	return
 
-:OC:a::{U+2757}{U+fe0f}
+:OC:a::{U+2757}
 :OC:akesi::{U+1f98e}
 :OC:ala::{U+274c}
 :OC:alasa::{U+1f3f9}
@@ -35,9 +35,9 @@ colon:
 :OC:ante::{U+1f500}
 :OC:anu::{U+262f}{U+fe0f}
 :OC:apeja::{U+1f622}
-:OC:awen::{U+2693}{U+fe0f}
-:OC:e::{U+23e9}{U+fe0f}
-:OC:en::{U+2795}{U+fe0f}
+:OC:awen::{U+2693}
+:OC:e::{U+23e9}
+:OC:en::{U+2795}
 :OC:esun::{U+1f6d2}
 :OC:ijo::{U+1f41a}
 :OC:ike::{U+1f44e}
@@ -53,6 +53,7 @@ colon:
 :OC:kasi::{U+1f334}
 :OC:ken::{U+1f4aa}
 :OC:kepeken::{U+1f527}
+:OC:kijetesantakalu::{U+1f99d}
 :OC:kili::{U+1f34e}
 :OC:kin::{U+2755}
 :OC:kipisi::{U+2702}{U+fe0f}
@@ -76,7 +77,7 @@ colon:
 :OC:lipu::{U+1f4c4}
 :OC:loje::{U+1f534}
 :OC:lon::{U+1f4cd}
-:OC:luka::{U+270b}{U+fe0f}
+:OC:luka::{U+270b}
 :OC:lukin::{U+1f440}
 :OC:lupa::{U+1f573}
 :OC:ma::{U+1f3dd}
@@ -91,6 +92,7 @@ colon:
 :OC:monsi::{U+2b05}{U+fe0f}
 :OC:monsuta::{U+1f479}
 :OC:mu::{U+1f639}
+:OC:mulapisu::{U+1f355}
 :OC:mun::{U+1f319}
 :OC:musi::{U+1f603}
 :OC:mute::{U+1f450}
@@ -109,13 +111,13 @@ colon:
 :OC:open::{U+1f513}
 :OC:pakala::{U+1f4a5}
 :OC:pake::{U+1f6a7}
-:OC:pali::{U+270a}{U+fe0f}
+:OC:pali::{U+270a}
 :OC:palisa::{U+1f4cf}
 :OC:pan::{U+1f35e}
 :OC:pana::{U+1f4e4}
 :OC:pi::{U+23f9}{U+fe0f}
 :OC:pilin::{U+2764}{U+fe0f}
-:OC:pimeja::{U+26ab}{U+fe0f}
+:OC:pimeja::{U+26ab}
 :OC:pini::{U+1f3c1}
 :OC:pipi::{U+1f41e}
 :OC:poka::{U+2194}{U+fe0f}
@@ -126,10 +128,10 @@ colon:
 :OC:sama::{U+2696}{U+fe0f}
 :OC:seli::{U+1f525}
 :OC:selo::{U+1f532}
-:OC:seme::{U+2753}{U+fe0f}
+:OC:seme::{U+2753}
 :OC:sewi::{U+2b06}{U+fe0f}
 :OC:sijelo::{U+1f3cb}{U+fe0f}
-:OC:sike::{U+2b55}{U+fe0f}
+:OC:sike::{U+2b55}
 :OC:sin::{U+1f381}
 :OC:sina::{U+1f449}
 :OC:sinpin::{U+27a1}{U+fe0f}
@@ -144,7 +146,7 @@ colon:
 :OC:taso::{U+1f914}
 :OC:tawa::{U+21aa}{U+fe0f}
 :OC:telo::{U+1f4a7}
-:OC:tenpo::{U+23f0}{U+fe0f}
+:OC:tenpo::{U+23f0}
 :OC:toki::{U+1f5e3}
 :OC:tomo::{U+1f3e0}
 :OC:tonsi::{U+2650}
@@ -152,10 +154,10 @@ colon:
 :OC:unpa::{U+1f346}
 :OC:uta::{U+1f444}
 :OC:utala::{U+2694}{U+fe0f}
-:OC:walo::{U+26aa}{U+fe0f}
+:OC:walo::{U+26aa}
 :OC:wan::{U+261d}{U+fe0f}
 :OC:waso::{U+1f985}
-:OC:wawa::{U+26a1}{U+fe0f}
+:OC:wawa::{U+26a1}
 :OC:weka::{U+1f6eb}
 :OC:wile::{U+1f4ad}
 

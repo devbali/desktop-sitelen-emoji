@@ -37,11 +37,9 @@ akesi	🦎	1
 ala	❌	1
 alasa	🏹	1
 ale	♾️	1
-ali	♾️	1
 anpa	⬇️	1
 ante	🔀	1
 anu	☯️	1
-apeja	😢	1
 awen	⚓	1
 e	⏩	1
 en	➕	1
@@ -60,10 +58,7 @@ kama	🚶	1
 kasi	🌴	1
 ken	💪	1
 kepeken	🔧	1
-kijetesantakalu	🦝	1
 kili	🍎	1
-kin	❕	1
-kipisi	✂️	1
 kiwen	💎	1
 ko	🍦	1
 kon	💨	1
@@ -74,13 +69,11 @@ la	🔼	1
 lape	😴	1
 laso	🔵	1
 lawa	😶	1
-leko	🧱	1
 len	👕	1
 lete	❄️	1
 li	▶️	1
 lili	🐭	1
 linja	〰️	1
-linluwi	🌐	1
 lipu	📄	1
 loje	🔴	1
 lon	📍	1
@@ -88,7 +81,6 @@ luka	✋	1
 lukin	👀	1
 lupa	🕳	1
 ma	🏝	1
-majuna	👵	1
 mama	👪	1
 mani	💰	1
 meli	👧	1
@@ -97,13 +89,10 @@ mije	👨	1
 moku	🍽	1
 moli	💀	1
 monsi	⬅️	1
-monsuta	👹	1
 mu	😹	1
-mulapisu	🍕	1
 mun	🌙	1
 musi	😃	1
 mute	👐	1
-namako	🧂	1
 nanpa	#️⃣	1
 nasa	🌀	1
 nasin	🛣	1
@@ -112,12 +101,10 @@ ni	👇	1
 nimi	💬	1
 noka	🦵	1
 o	👋	1
-oko	👁️	1
 olin	💕	1
 ona	👆	1
 open	🔓	1
 pakala	💥	1
-pake	🚧	1
 pali	✊	1
 palisa	📏	1
 pan	🍞	1
@@ -130,7 +117,6 @@ pipi	🐞	1
 poka	↔️	1
 poki	📦	1
 pona	👍	1
-powe	🧞	1
 pu	📖	1
 sama	⚖️	1
 seli	🔥	1
@@ -156,7 +142,6 @@ telo	💧	1
 tenpo	⏰	1
 toki	🗣	1
 tomo	🏠	1
-tonsi	♐	1
 tu	✌️	1
 unpa	🍆	1
 uta	👄	1

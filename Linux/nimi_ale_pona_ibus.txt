@@ -31,7 +31,6 @@ DYNAMIC_ADJUST = FALSE
 END_DEFINITION
 
 
-BEGIN_TABLE
 a	❗	1
 akesi	🦎	1
 ala	❌	1
@@ -170,6 +169,45 @@ wile	💭	1
 _	🔣	1
 .	➖	1
 :	➗	1
+epiku	😎	1
+ete	🔃	1
+ewe	🌋	1
+itomi	😈	1
+jami	🤤	1
+kamalawala	💣	1
+kan	🔗	1
+kapesi	🟤	1
+kuntu	🤣	1
+lanpan	📥	1
+likujo	🧺	1
+lokon	🧿	1
+melome	👩‍❤️‍👩	1
+mijomi	👨‍❤️‍👨	1
+misikeke	💊	1
+oke	👌	1
+okepuma	🦖	1
+omen	🙄	1
+pa	🤨	1
+pasila	🧘	1
+pata	👯‍♀️	1
+peta	🟢	1
+peto	😭	1
+pipo	😒	1
+po	🍀	1
+polinpin	🎳	1
+pomotolo	📈	1
+samu	✍️	1
+sikomo	🤩	1
+soko	🍄	1
+soto	🤛	1
+su	❔	1
+te	🤜	1
+tuli	☘️	1
+waleja	ℹ️	1
+wawajete	🤡	1
+we	🔒	1
+wi	🙋	1
+yupekosi	📉	1
 Akanisan	🇦🇫	1
 Olan	🇦🇽	1
 Sipe	🇦🇱	1
