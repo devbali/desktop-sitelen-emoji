@@ -1,3 +1,4 @@
+
 # (c) Apple Inc. 2019
 
 # Sample plug-in input source rule file.
@@ -32,7 +33,7 @@ ENCODE: TC
 
 #
 
-PROMPT: Sitelen Emoji
+PROMPT: Toki Pona Sitelen Emoji
 
 #
 
@@ -87,6 +88,9 @@ VALIDINPUTKEY: 0123456789-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 #
 
 BEGINCHARACTER
+_ 🔣
+. ➖
+: ➗
 
 a ❗
 akesi 🦎
@@ -135,14 +139,14 @@ loje 🔴
 lon 📍
 luka ✋
 lukin 👀
-lupa 🕳
-ma 🏝
+lupa 🕳️
+ma 🏝️
 mama 👪
 mani 💰
 meli 👧
 mi 👈
 mije 👨
-moku 🍽
+moku 🍽️
 moli 💀
 monsi ⬅️
 mu 😹
@@ -151,7 +155,7 @@ musi 😃
 mute 👐
 nanpa #️⃣
 nasa 🌀
-nasin 🛣
+nasin 🛣️
 nena 🗻
 ni 👇
 nimi 💬
@@ -184,19 +188,19 @@ sike ⭕
 sin 🎁
 sina 👉
 sinpin ➡️
-sitelen 🖼
+sitelen 🖼️
 sona 🧠
 soweli 🐒
 suli 🐘
 suno ☀️
-supa 🛏
+supa 🛏️
 suwi 🍭
 tan ↩️
 taso 🤔
 tawa ↪️
 telo 💧
 tenpo ⏰
-toki 🗣
+toki 🗣️
 tomo 🏠
 tu ✌️
 unpa 🍆
@@ -208,9 +212,6 @@ waso 🦅
 wawa ⚡
 weka 🛫
 wile 💭
-_ 🔣
-. ➖
-: ➗
 Akanisan 🇦🇫
 Olan 🇦🇽
 Sipe 🇦🇱

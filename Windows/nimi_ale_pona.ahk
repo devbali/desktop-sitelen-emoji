@@ -1,3 +1,4 @@
+
 #NoEnv ; For security
 #SingleInstance force
 Hotkey :, colon
@@ -7,7 +8,7 @@ Hotkey _, underscore
 toggle := false
 return
 
-F1::
+F2::
 	toggle := !toggle   ;inverts toggle 0>1>0>1 etc.
 	return
 
@@ -73,21 +74,21 @@ colon:
 :OC:li::{U+25b6}{U+fe0f}
 :OC:lili::{U+1f42d}
 :OC:linja::{U+3030}{U+fe0f}
-:OC:linluwi::{U+1F310}
+:OC:linluwi::{U+1f310}
 :OC:lipu::{U+1f4c4}
 :OC:loje::{U+1f534}
 :OC:lon::{U+1f4cd}
 :OC:luka::{U+270b}
 :OC:lukin::{U+1f440}
-:OC:lupa::{U+1f573}
-:OC:ma::{U+1f3dd}
+:OC:lupa::{U+1f573}{U+fe0f}
+:OC:ma::{U+1f3dd}{U+fe0f}
 :OC:majuna::{U+1f475}
 :OC:mama::{U+1f46a}
 :OC:mani::{U+1f4b0}
 :OC:meli::{U+1f467}
 :OC:mi::{U+1f448}
 :OC:mije::{U+1f468}
-:OC:moku::{U+1f37d}
+:OC:moku::{U+1f37d}{U+fe0f}
 :OC:moli::{U+1f480}
 :OC:monsi::{U+2b05}{U+fe0f}
 :OC:monsuta::{U+1f479}
@@ -99,7 +100,7 @@ colon:
 :OC:namako::{U+1f9c2}
 :OC:nanpa::{U+23}{U+fe0f}{U+20e3}
 :OC:nasa::{U+1f300}
-:OC:nasin::{U+1f6e3}
+:OC:nasin::{U+1f6e3}{U+fe0f}
 :OC:nena::{U+1f5fb}
 :OC:ni::{U+1f447}
 :OC:nimi::{U+1f4ac}
@@ -135,19 +136,19 @@ colon:
 :OC:sin::{U+1f381}
 :OC:sina::{U+1f449}
 :OC:sinpin::{U+27a1}{U+fe0f}
-:OC:sitelen::{U+1f5bc}
+:OC:sitelen::{U+1f5bc}{U+fe0f}
 :OC:sona::{U+1f9e0}
 :OC:soweli::{U+1f412}
 :OC:suli::{U+1f418}
 :OC:suno::{U+2600}{U+fe0f}
-:OC:supa::{U+1f6cf}
+:OC:supa::{U+1f6cf}{U+fe0f}
 :OC:suwi::{U+1f36d}
 :OC:tan::{U+21a9}{U+fe0f}
 :OC:taso::{U+1f914}
 :OC:tawa::{U+21aa}{U+fe0f}
 :OC:telo::{U+1f4a7}
 :OC:tenpo::{U+23f0}
-:OC:toki::{U+1f5e3}
+:OC:toki::{U+1f5e3}{U+fe0f}
 :OC:tomo::{U+1f3e0}
 :OC:tonsi::{U+2650}
 :OC:tu::{U+270c}{U+fe0f}
@@ -160,7 +161,6 @@ colon:
 :OC:wawa::{U+26a1}
 :OC:weka::{U+1f6eb}
 :OC:wile::{U+1f4ad}
-
 :OC:epiku::{U+1f60e}
 :OC:ete::{U+1f503}
 :OC:ewe::{U+1f30b}
@@ -200,7 +200,6 @@ colon:
 :OC:we::{U+1f512}
 :OC:wi::{U+1f64b}
 :OC:yupekosi::{U+1f4c9}
-
 :OC:Akanisan::{U+1f1e6}{U+1f1eb}
 :OC:Olan::{U+1f1e6}{U+1f1fd}
 :OC:Sipe::{U+1f1e6}{U+1f1f1}

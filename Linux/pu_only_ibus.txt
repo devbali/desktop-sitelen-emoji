@@ -1,3 +1,4 @@
+
 ### File header must not be modified
 ### This file must be encoded into UTF-8.
 ### comments start with ### not single #
@@ -13,7 +14,7 @@ BEGIN_DEFINITION
 LICENSE = 0BSD
 UUID = f67b50f3-a3a7-4555-ba34-58706e423f71
 SERIAL_NUMBER = 20200514
-NAME = Sitelen Emoji
+NAME = Toki Pona Sitelen Emoji
 DESCRIPTION = This is to write Toki Pona in Sitelen Emoji
 LANGUAGES = en_US
 AUTHOR = Dev Bali <devbali02@gmail.com>
@@ -32,6 +33,10 @@ END_DEFINITION
 
 
 BEGIN_TABLE
+_	🔣	1
+.	➖	1
+:	➗	1
+
 a	❗	1
 akesi	🦎	1
 ala	❌	1
@@ -79,14 +84,14 @@ loje	🔴	1
 lon	📍	1
 luka	✋	1
 lukin	👀	1
-lupa	🕳	1
-ma	🏝	1
+lupa	🕳️	1
+ma	🏝️	1
 mama	👪	1
 mani	💰	1
 meli	👧	1
 mi	👈	1
 mije	👨	1
-moku	🍽	1
+moku	🍽️	1
 moli	💀	1
 monsi	⬅️	1
 mu	😹	1
@@ -95,7 +100,7 @@ musi	😃	1
 mute	👐	1
 nanpa	#️⃣	1
 nasa	🌀	1
-nasin	🛣	1
+nasin	🛣️	1
 nena	🗻	1
 ni	👇	1
 nimi	💬	1
@@ -128,19 +133,19 @@ sike	⭕	1
 sin	🎁	1
 sina	👉	1
 sinpin	➡️	1
-sitelen	🖼	1
+sitelen	🖼️	1
 sona	🧠	1
 soweli	🐒	1
 suli	🐘	1
 suno	☀️	1
-supa	🛏	1
+supa	🛏️	1
 suwi	🍭	1
 tan	↩️	1
 taso	🤔	1
 tawa	↪️	1
 telo	💧	1
 tenpo	⏰	1
-toki	🗣	1
+toki	🗣️	1
 tomo	🏠	1
 tu	✌️	1
 unpa	🍆	1
@@ -152,9 +157,6 @@ waso	🦅	1
 wawa	⚡	1
 weka	🛫	1
 wile	💭	1
-_	🔣	1
-.	➖	1
-:	➗	1
 Akanisan	🇦🇫	1
 Olan	🇦🇽	1
 Sipe	🇦🇱	1
